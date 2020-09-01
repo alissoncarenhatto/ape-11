@@ -28,6 +28,15 @@ Já na arquitetura descentralizada adotada pelo Git, não existe um repositório
 
 #### **4. Quais as vantagens do Git?**
 
+Performance
+O GIT pode ser considerado um dos melhores VCS disponíveis no que diz respeito a performance.
+
+Segurança
+O GIT também é um dos VCS mais seguros do mercado. Nele todo o conteúdo dos códigos, assim como a relação entre os diferentes arquivos, diretórios, versões e tags são criptograficamente protegidos por um algoritmo de hashing chamado SHA1.
+
+Flexibilidade
+Por fim, outra ótima vantagem proporcionada pelo GIT é sua enorme flexibilidade. Ele suporta bem vários de fluxos de desenvolvimento; entrega eficiência tanto em grandes quantos em pequenos projetos; e é compatível com a maioria dos sistemas e protocolos existentes.
+
 #### **5. Qual a importância da utilização do controle de versionamento no desenvolvimento de um software?**
 
 #### **6. Cite pelo menos três ferramentas de controle de versão e faça um breve detalhamento sobre cada uma delas.**
