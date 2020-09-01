@@ -8,6 +8,14 @@ Quem utiliza o Git tem ainda a possibilidade de criar a qualquer instante vário
 
 #### **2. O que é versionamento de software?**
 
+No processo de desenvolvimento de um software, várias alterações são feitas no projeto, seja para implementar melhorias e funcionalidades, seja para corrigir bugs e melhorar a experiência do usuário.
+
+O controle de versão consiste basicamente em um sistema que permite registrar alterações feitas no desenvolvimento de um software.
+
+É a partir dele que toda a equipe envolvida no projeto tem acesso ao histórico das versões anteriores do software, podendo recuperar uma versão específica ou compreender quais mudanças foram feitas por outros colaboradores.
+
+Em outras palavras, é uma forma de ter um controle rigoroso sobre lançamentos de novidades do software e melhorias implementadas.
+
 #### **3. Por que utilizar o Git como controle de versionamento?**
 
 #### **4. Quais as vantagens do Git?**
