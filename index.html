@@ -57,12 +57,47 @@
             <div class="12u">
                 <section>
                     <header>
-                        <h2>1 - Descricao da pergunta</h2>
+                        <h2>1 - Para que serve o commit e qual a melhor forma de utilizá-lo?</h2>
                     </header>
-                    <p>Donec condimentum, urna non molestie semper, ligula enim ornare nibh, quis laoreet eros quam eget ante. Aliquam libero. Vivamus nisl nibh, iaculis vitae, viverra sit amet, ullamcorper vitae, turpis. Aliquam erat volutpat. Vestibulum dui sem, pulvinar sed, imperdiet nec, iaculis nec, leo. Fusce odio. Etiam arcu dui, faucibus eget, placerat vel, sodales eget, orci. Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Donec nonummy magna quis risus. Quisque eleifend. Phasellus tempor vehicula justo. Aliquam lacinia metus ut elit. Suspendisse iaculis mauris nec lorem. Donec leo. Vivamus fermentum nibh in augue. Praesent a lacus at urna congue rutrum. Nulla enim eros, porttitor eu, tempus id, varius non, nibh. Duis enim nulla, luctus eu, dapibus lacinia, venenatis id, quam. Vestibulum imperdiet, magna nec eleifend rutrum, nunc lectus vestibulum velit, euismod lacinia quam nisl id lorem. Quisque erat. Vestibulum pellentesque, justo mollis pretium suscipit, justo nulla blandit libero, in blandit augue justo quis nisl. Fusce mattis viverra elit. Fusce quis tortor. In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Pellentesque tristique ante ut risus. Quisque dictum. Integer nisl risus, sagittis convallis, rutrum id, elementum congue, nibh. Sed etiam vestibulum velit, euismod lacinia quam nisl id lorem. Quisque erat. Vestibulum pellentesque, justo mollis pretium suscipit.</p>
+                    <p>Em um nível alto, o Git pode ser considerado um utilitário de gerenciamento da linha do tempo. Os commits são as unidades estruturais de uma linha do tempo de projeto Git. Os commits podem ser considerados instantâneos ou marcos ao longo da linha do tempo de um projeto Git. Os commits são criados com o comando <i>git commit</i> para capturar o estado de um projeto naquele momento.</p>
+                    <p>Pode ser utilizado de múltiplas formas para comitar as alterações para o repositório, porém todo commit necessita de uma mensagem para logar, já que esta o identificará. Para isso basta utilizar o comando <em>git commit -m "mensagem de exemplo"</em>. A mensagem pode ser qualquer string válida.</p>
                 </section>
             </div>
+            <div class="12u" style="margin-top: 30px">
+                <section>
+                    <header>
+                        <h2>2 - Qual a diferença entre commit e push?</h2>
+                    </header>
+                    <p>Basicamente, git commit captura o estado daquela branch naquele momento enquanto git Push "atualiza referências remotas junto com objetos associados". Portanto, o primeiro é usado em conexão com seu repositório local, enquanto o outro é usado para interagir com um repositório remoto.</p>
+                </section>
+            </div>
+            <div class="12u" style="margin-top: 30px">
+                <section>
+                    <header>
+                        <h2>3 - O que é tag?</h2>
+                    </header>
+                    <p>São etiquetas que demarcam um ponto (commit) que representa alguma mudança significativa no seu código, ou seja, uma versão (ou release) do seu projeto.</p>
+                    <p>O Git tem dois tipos de tags: annotated e non-annotated. Ao usá-las, existe uma pequena diferença entre elas. Ambas permitem que você faça referência a um commit específico em um repositório.
 
+                        Uma annotated tag cria uma objeto tag adicional no repositório do Git, o que permite que você armazene informações associadas com a tag. Isso pode incluir notas de liberação, a meta-informação sobre o lançamento e, opcionalmente, uma assinatura para verificar a autenticidade do commit para o qual ele aponta.</p>
+                </section>
+            </div>
+            <div class="12u" style="margin-top: 30px">
+                <section>
+                    <header>
+                        <h2>4 - O que é branch?</h2>
+                    </header>
+                    <p>Uma ramificação no git é um ponteiro para as alterações feitas nos arquivos do projeto. É útil em situações nas quais você deseja adicionar um novo recurso ou corrigir um erro, gerando uma nova ramificação garantindo que o código instável não seja mesclado nos arquivos do projeto principal. Depois de concluir a atualização dos códigos da ramificação, você pode mesclar a ramificação com a principal, geralmente chamada de master.</p>
+                </section>
+            </div>
+            <div class="12u" style="margin-top: 30px">
+                <section>
+                    <header>
+                        <h2>4 - Como resolver possíveis conflitos no Git?</h2>
+                    </header>
+                    <p>Ao final da linha você tem o arquivo onde ocorreu o conflito, mas se por acaso você já fechou o terminal e não tem indicação de quais arquivos tem conflito, você pode usar git status e ver quais arquivos foram modificados pelo merge ou fazer uma busca geral no projeto (dependendo do seu editor de código pode ser Ctrl + Shift + F) por "<<<<<<<", ou "=======". O Git gera essa marcação com duas versões do mesmo código: A versão que você tem, e a versão que está tentando mesclar. Para resolver o conflito, portanto, é preciso alterar o arquivo para que contenha apenas uma versão. Apagando o código incorreto e removendo as marcações de conflito.</p>
+                </section>
+            </div>
         </div>
     </div>
     <!-- Main -->
