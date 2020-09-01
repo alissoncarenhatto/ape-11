@@ -39,5 +39,17 @@ Por fim, outra ótima vantagem proporcionada pelo GIT é sua enorme flexibilidad
 
 #### **5. Qual a importância da utilização do controle de versionamento no desenvolvimento de um software?**
 
+O controle de versão é importante porque permite realizar um trabalho em equipe.
+
+É que, com ele, todas as pessoas têm acesso aos arquivos, podendo observar as mudanças feitas por outros colaboradores.
+
+Quando falamos em desenvolvimento de software, estamos falando de um trabalho em equipe, em que cada membro é responsável por uma área específica.
+
+Assim, no decorrer das atividades, o projeto sofre muitas alterações. Se essas mudanças não ficarem visíveis para todos os colaboradores, o trabalho em equipe é prejudicado.
+
+Cada profissional precisa saber o que aconteceu com um arquivo antes ou depois de trabalhar com ele. Isso ajuda o time a ter uma ampla visão do histórico de desenvolvimento do software.
+
+Outro benefício é que o controle de versão permite que várias pessoas trabalhem em um mesmo arquivo ao mesmo tempo, mas sem um alterar o código elaborado pelo outro profissional.
+
 #### **6. Cite pelo menos três ferramentas de controle de versão e faça um breve detalhamento sobre cada uma delas.**
 
