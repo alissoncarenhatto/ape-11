@@ -53,3 +53,11 @@ Outro benefício é que o controle de versão permite que várias pessoas trabal
 
 #### **6. Cite pelo menos três ferramentas de controle de versão e faça um breve detalhamento sobre cada uma delas.**
 
+Microsoft Visual SourceSafe
+É um sistema de versionamento de arquivos que permite que vários tipos de organizações possam trabalhar em várias versões do projeto ao mesmo tempo. Essa funcionalidade é particularmente benéfica em um ambiente de desenvolvimento de software, onde ele é usado ao manter versões de código paralelas. Entretanto, o produto pode ser usado para manter arquivos para qualquer outro tipo de equipe.
+
+CVC
+É um sistema de controle de versão, um componente importante do Gerenciamento de Configuração de Origem (SCM). Ao usá-lo, você pode gravar o histórico de arquivos de fontes e documentos.
+
+Subversion
+O Subversion existe para ser universalmente reconhecido e adotado como um sistema de controle de versão de código aberto, centralizado e caracterizado por sua confiabilidade, como um refúgio seguro para dados valiosos; a simplicidade de seu modelo e uso; e sua capacidade de suportar as necessidades de uma grande variedade de usuários e projetos, de indivíduos para operações corporativas de grande escala.
