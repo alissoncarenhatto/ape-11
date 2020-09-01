@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="css/style.css"/>
         <link rel="stylesheet" href="css/style-desktop.css"/>
     </noscript>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
     <!--[if lte IE 8]>
     <link rel="stylesheet" href="css/ie/v8.css"/><![endif]-->
     <!--[if lte IE 9]>
@@ -38,8 +39,8 @@
         <nav id="nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="comandos-flow.html">Comandos com flow</a></li>
-                <li class="active"><a href="comandos.html">Comandos sem flow</a></li>
+                <li><a href="comandos-flow.html">Comandos com git flow</a></li>
+                <li class="active"><a href="comandos.html">Comandos git sem flow</a></li>
             </ul>
         </nav>
 
@@ -47,19 +48,134 @@
 </div>
 <!-- Header -->
 
+
 <!-- Main -->
 <div id="page">
 
     <!-- Main -->
     <div class="container">
-        <h2 class="title-page">RESPOSTAS</h2>
+        <h2 class="title-page">COMANDOS GIT FLOW</h2>
         <div id="main" class="row">
             <div class="12u">
-                <section>
-                    <header>
-                        <h2>1 - Descricao da pergunta</h2>
-                    </header>
-                    <p>Donec condimentum, urna non molestie semper, ligula enim ornare nibh, quis laoreet eros quam eget ante. Aliquam libero. Vivamus nisl nibh, iaculis vitae, viverra sit amet, ullamcorper vitae, turpis. Aliquam erat volutpat. Vestibulum dui sem, pulvinar sed, imperdiet nec, iaculis nec, leo. Fusce odio. Etiam arcu dui, faucibus eget, placerat vel, sodales eget, orci. Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Donec nonummy magna quis risus. Quisque eleifend. Phasellus tempor vehicula justo. Aliquam lacinia metus ut elit. Suspendisse iaculis mauris nec lorem. Donec leo. Vivamus fermentum nibh in augue. Praesent a lacus at urna congue rutrum. Nulla enim eros, porttitor eu, tempus id, varius non, nibh. Duis enim nulla, luctus eu, dapibus lacinia, venenatis id, quam. Vestibulum imperdiet, magna nec eleifend rutrum, nunc lectus vestibulum velit, euismod lacinia quam nisl id lorem. Quisque erat. Vestibulum pellentesque, justo mollis pretium suscipit, justo nulla blandit libero, in blandit augue justo quis nisl. Fusce mattis viverra elit. Fusce quis tortor. In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Pellentesque tristique ante ut risus. Quisque dictum. Integer nisl risus, sagittis convallis, rutrum id, elementum congue, nibh. Sed etiam vestibulum velit, euismod lacinia quam nisl id lorem. Quisque erat. Vestibulum pellentesque, justo mollis pretium suscipit.</p>
+                <section class="section-table">
+                    <table class="pure-table">
+                        <thead>
+                        <tr>
+                            <th>Comando</th>
+                            <th>Descrição</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>git config --list</td>
+                            <td>Para verificar as configurações locais</td>
+                        </tr>
+                        <tr>
+                            <td>git config --global user.name</td>
+                            <td>Para encontrar o nome de usuário</td>
+                        </tr>
+                        <tr>
+                            <td>git config --global user.email</td>
+                            <td>Para encontrar o email</td>
+                        </tr>
+                        <tr>
+                            <td>git config --global user.name "nome do usuário"</td>
+                            <td>Alterar o nome de usuário</td>
+                        </tr>
+                        <tr>
+                            <td>git config --global user.email "email do usuário"</td>
+                            <td>Alterar o email</td>
+                        </tr>
+                        <tr>
+                            <td>git init</td>
+                            <td>Iniciar um repositório</td>
+                        </tr>
+                        <tr>
+                            <td>git clone link</td>
+                            <td>“Baixar” um repositório</td>
+                        </tr>
+                        <tr>
+                            <td>git pull</td>
+                            <td>Baixar as últimas alterações do servidor</td>
+                        </tr>
+                        <tr>
+                            <td>git remote -v</td>
+                            <td>Listando o caminho do servidor</td>
+                        </tr>
+                        <tr>
+                            <td>git remote set-url origin git://url</td>
+                            <td>Adicionando o caminho do servidor</td>
+                        </tr>
+                        <tr>
+                            <td>git add nome_do_arquivo</td>
+                            <td>Adicionando um arquivo</td>
+                        </tr>
+                        <tr>
+                            <td>git add .</td>
+                            <td>Adicionando tudo de uma vez</td>
+                        </tr>
+                        <tr>
+                            <td>git reset nome_do_arquivo</td>
+                            <td>Removendo arquivos</td>
+                        </tr>
+                        <tr>
+                            <td>git commit -m "mensagem"</td>
+                            <td>Pacote de alterações feitas no repositório</td>
+                        </tr>
+                        <tr>
+                            <td>git status</td>
+                            <td>Verificando o que foi alterado</td>
+                        </tr>
+                        <tr>
+                            <td>git branch</td>
+                            <td>Listando as branches existentes</td>
+                        </tr>
+                        <tr>
+                            <td>git branch nome</td>
+                            <td>Criando uma nova branch</td>
+                        </tr>
+                        <tr>
+                            <td>git checkout -b nome_da_nova_branch</td>
+                            <td>Criando uma nova branch e já trocando para ela</td>
+                        </tr>
+                        <tr>
+                            <td>git branch -d nome</td>
+                            <td>Deletando uma branch</td>
+                        </tr>
+                        <tr>
+                            <td>git checkout nome_da_branch_existente</td>
+                            <td>Trocando de branch</td>
+                        </tr>
+                        <tr>
+                            <td>git push origin nome_da_branch</td>
+                            <td>Enviando uma branch para o servidor</td>
+                        </tr>
+                        <tr>
+                            <td>git push origin :nome_da_branch</td>
+                            <td>Deletando uma branch remota</td>
+                        </tr>
+                        <tr>
+                            <td>git tag</td>
+                            <td>Listando as tags Git</td>
+                        </tr>
+                        <tr>
+                            <td>git tag 0.0.1</td>
+                            <td>Criar uma tag Git</td>
+                        </tr>
+                        <tr>
+                            <td>git tag -a 0.0.1 -m "versão 0.0.1"</td>
+                            <td>Criar uma tag com mensagem (anotada)</td>
+                        </tr>
+                        <tr>
+                            <td>git tag -a 0.0.1 (hash commit)</td>
+                            <td>Criar uma tag a partir de um commit</td>
+                        </tr>
+                        <tr>
+                            <td>git push origin 0.0.1</td>
+                            <td>Criando a tag no servidor</td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </section>
             </div>
 
