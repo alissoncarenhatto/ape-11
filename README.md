@@ -18,6 +18,14 @@ Em outras palavras, é uma forma de ter um controle rigoroso sobre lançamentos 
 
 #### **3. Por que utilizar o Git como controle de versionamento?**
 
+A arquitetura descentralizada é o que faz com que o Git seja melhor do que os outros sistemas de versionamento.
+
+O CSV, por exemplo, possui uma arquitetura centralizada, ou seja, ele conta com um repositório central.
+
+Uma desvantagens desse tipo de arquitetura é a baixa performance gerada caso tenha muitas equipes e projetos em um mesmo repositório. Além disso, é preciso estar sempre on-line para realizar as operações, como criar as ramificações.
+
+Já na arquitetura descentralizada adotada pelo Git, não existe um repositório oficial, embora isso possa ser feito. Sendo assim, em cada repositório, incluindo o da máquina do contribuidor, vai existir uma cópia completa e funcional, permitindo a utilização das operações mesmo offline.
+
 #### **4. Quais as vantagens do Git?**
 
 #### **5. Qual a importância da utilização do controle de versionamento no desenvolvimento de um software?**
